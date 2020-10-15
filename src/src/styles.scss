@@ -1,8 +1,5 @@
 @charset "utf-8";
 
-// https://github.com/metafizzy/flickity/issues/754
-@import "~flickity/css/flickity.css";
-
 // Import Lato Google Font
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
 
@@ -24,12 +21,10 @@ $link: hsl(171, 100%, 41%);
 
 // Custom Styles
 .card-gap {margin-top:1.75rem}
-.modal-trigger { cursor: pointer; }
+.modal-trigger {cursor:pointer;transition:.4s}
 a.icon > strong {margin-left:.25rem}
 .modal-card-body div.content {margin:$margin-default}
-
-// import everything - alternatively import just what you need: https://bulma.io/documentation/overview/modular/
-@import "~bulma/bulma"; 
+img.modal-trigger:hover {opacity:.9;transform:scale(1.03)}
 
 // override specific bulma styles
 .section {padding: 2.15rem 1.5rem}
@@ -41,5 +36,3 @@ a.icon > strong {margin-left:.25rem}
 // Flickity - begin
 .carousel-cell {width:100%}
 // Flickity - end
-
- 
