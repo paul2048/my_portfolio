@@ -56,19 +56,19 @@
   <section class="section">
     <div class="container">
       <h1 class="title">About Me</h1>
-      <hr />
+      <hr>
       <p>I am a computer science student that started coding when I was 16. I mostly built
       web applications, Python applications and simple AI programs. My passion for
       technology sparked when I was very young, allowing plentiful time for me to experiment,
       learn, and grow as a programmer. One of my objectives is to work in an environment
-      that encourages networking, passion and abition.</p>
+      that encourages networking, passion and ambition.</p>
     </div>
   </section>
 
   <section class="section">
     <div class="container">
       <h1 class="title">Projects</h1>
-      <hr />
+      <hr>
 
       <div class="tile is-ancestor">
         <div class="tile is-vertical is-12">
@@ -174,13 +174,28 @@
           </div>
         </div>
       </div>
+
+      <div class="tile is-ancestor">
+        <div class="tile is-vertical is-12">
+          <div class="tile">
+            <div class="tile is-parent">
+              <article class="tile is-child notification">
+                <p class="title">Music Analysis</p>
+                <figure class="image is-2by1">
+                  <img class="modal-trigger" data-target="project-8-modal" src="src/dist/img/project-8-cover.gif">
+                </figure>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
   <section class="section">
     <div class="container">
       <h1 class="title">Contact</h1>
-      <hr />
+      <hr>
       <nav class="level">
         <div class="level-item has-text-centered">
           <div>
@@ -487,6 +502,52 @@
             <span class="tag">python</span>
             <span class="tag">pillow</span>
           </div>
+        </div>
+
+      </section>
+      <footer class="modal-card-foot">
+        <button class="button is-success">Close</button>
+      </footer>
+    </div>
+  </div>
+
+  <div id="project-8-modal" class="modal">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">Music Analysis</p>
+        <button class="delete" aria-label="close"></button>
+      </header>
+      <section class="modal-card-body">
+
+        <div id="project-8-modal-carousel" class="carousel">
+          <figure class="image is-2by1 carousel-cell">
+            <img src="src/dist/img/carousel/h1.png">
+          </figure>
+          <figure class="image is-2by1 carousel-cell">
+            <img src="src/dist/img/carousel/h2.png">
+          </figure>
+          <figure class="image is-2by1 carousel-cell">
+            <img src="src/dist/img/carousel/h3.png">
+          </figure>
+        </div>
+
+        <div class="content">
+
+          <p><a href="https://github.com/paul2048/music-analysis" target="_blank">Music Analysis</a> 
+          has the purpose of analyzing music based on music features including danceability, instrumentalness,
+          energy, liveness, etc. The notebook answers to 3 questions and the answers to them involve data
+          visualisation and machine learning.</p>
+
+          <div class="tags">
+            <span class="tag">jupyter notebook</span>
+            <span class="tag">python</span>
+            <span class="tag">scikit-learn</span>
+            <span class="tag">numpy</span>
+            <span class="tag">pandas</span>
+            <span class="tag">matplotlib</span>
+          </div>
+
         </div>
 
       </section>
