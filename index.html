@@ -74,6 +74,21 @@
           <div class="tile">
             <div class="tile is-parent">
               <article class="tile is-child notification">
+                <p class="title">Instagram Logo Detection</p>
+                <figure class="image is-4by3">
+                  <img class="modal-trigger" data-target="project-10-modal" src="src/dist/img/project-10-cover.gif">
+                </figure>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tile is-ancestor">
+        <div class="tile is-vertical is-12">
+          <div class="tile">
+            <div class="tile is-parent">
+              <article class="tile is-child notification">
                 <p class="title">Fruits n' Veggies</p>
                 <figure class="image is-2by1">
                   <img class="modal-trigger" data-target="project-9-modal" src="src/dist/img/project-9-cover.gif">
@@ -606,6 +621,56 @@
             <span class="tag">React</span>
             <span class="tag">Node</span>
             <span class="tag">PostgreSQL</span>
+            <span class="tag">Material-UI</span>
+          </div>
+
+        </div>
+
+      </section>
+      <footer class="modal-card-foot">
+        <button class="button is-success">Close</button>
+      </footer>
+    </div>
+  </div>
+
+  <div id="project-10-modal" class="modal">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">Fruits n' Veggies</p>
+        <button class="delete" aria-label="close"></button>
+      </header>
+      <section class="modal-card-body">
+
+        <div id="project-10-modal-carousel" class="carousel">
+          <figure class="image is-1by1 carousel-cell">
+            <img src="src/dist/img/carousel/j1.png">
+          </figure>
+          <figure class="image is-1by1 carousel-cell">
+            <img src="src/dist/img/carousel/j2.png">
+          </figure>
+          <figure class="image is-1by1 carousel-cell">
+            <img src="src/dist/img/carousel/j3.png">
+          </figure>
+        </div>
+
+        <div class="content">
+
+          <p><a href="https://github.com/paul2048/InstagramLogoDetection" target="_blank">Instagram Logo Detection</a> 
+            is a Flask + React web application that downloads photos from the selected Instagram usernames and tries
+            to detect the specified logos in each photo. The photos are downloaded with Instagram Scraper's scraped
+            data, inputted into a Tensorflow object detection model, and the photos with any detection will be sent to
+            the frontend. Each photo detection is sent once the detection happens, one at a time, because the WebSocket
+            protocol is used instead of HTTP.
+          </p>
+
+          <div class="tags">
+            <span class="tag">Python</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">TensorFlow</span>
+            <span class="tag">Flask</span>
+            <span class="tag">React</span>
+            <span class="tag">SocketIO</span>
             <span class="tag">Material-UI</span>
           </div>
 
